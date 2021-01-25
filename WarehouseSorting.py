@@ -11,15 +11,13 @@ csv_f = csv.reader(f)
 
 WarehouseA =[]
 
-for row in csv_f:
-	WarehouseA.append(row[0])
-	WarehouseA.append(row[1])
-	WarehouseA.append(row[2]
-			  )
-print ("Warehouse A")
-print (WarehouseA)
-
-f.close()
+	for row in csv_f:
+		WarehouseA.append(row[0])
+		WarehouseA.append(row[1])
+		WarehouseA.append(row[2])
+			print ("Warehouse A")
+			print (WarehouseA)
+		f.close()
 
 #WAREHOUSE B
 def SelectionB():
@@ -34,11 +32,10 @@ for row in csv_f:
 	WarehouseB.append(row[0])
 	WarehouseB.append(row[1])
 	WarehouseB.append(row[2])
-	
-print ("Warehouse B")
-print (WarehouseB)
+		print ("Warehouse B")
+		print (WarehouseB)
+	f.close()
 
-f.close()
 #WAREHOUSE C
 def SelectionC():
 
@@ -52,9 +49,8 @@ for row in csv_f:
 	WarehouseC.append(row[0])
 	WarehouseC.append(row[1])
 	WarehouseC.append(row[2])
-	
-print ("Warehouse C")
-print (WarehouseC)
+		print ("Warehouse C")
+		print (WarehouseC)
 
 f.close()
 
